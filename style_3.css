@@ -1,0 +1,140 @@
+.body {
+    background-color: #F7F7F7;
+}
+
+.top_nav {
+    width: auto;
+    height: 30px;
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+}
+
+.navdesign {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.adjust {
+    padding: 20px;
+}
+
+.add_task {
+    font: normal 22px/26px Inter;
+    margin-left: 100px;
+    margin-top: 50px; 
+}
+
+.make {
+    font-size: 30px;
+    color: #00A5EC;
+}
+.fa{
+    font-size: 40px;
+} 
+
+.now {
+    margin-top: 20px;
+}
+
+.new {
+    font-size: 30px;
+    color: #424242;
+}
+
+.back {
+    margin-left: 450px;
+    margin-top: 190px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.card {
+    width: min(80vw, 370px);
+    height: min(44vh, 300px);
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    margin-top: 75px;
+}
+
+.card:hover {
+    top: 596px;
+    left: 507px;
+
+    /* UI Properties */
+    opacity: 1;
+    box-shadow: 0px 0px 20px #67676729;
+    cursor: pointer;
+}
+
+.check {
+    width: 20px;
+    height: 20px;
+    margin: 15px;
+}
+
+.data {
+    font-size: 19px;
+    text-decoration: line-through;
+
+}
+
+.c2 {
+    width: 20px;
+    height: 20px;
+    margin: 15px;
+}
+
+p {
+    color: #00A5EC;
+    font-size: 21px;
+    margin-left: 22px;
+    margin-top: 20px;
+}
+
+hr {
+    background-color: grey;
+    opacity: 0.1;
+}
+
+.data {
+    font-size: 19px;
+    text-decoration: line-through;
+    color: #C2C2C2;
+}
+
+.check {
+    width: 20px;
+    height: 20px;
+    margin: 15px;
+}
+
+@media (max-width:450px) {
+    .new {
+        font-size: 30px;
+        margin-top: -100px;
+    }
+
+    .back {
+        margin-left: 5px;
+        margin-top: 1px;
+    }
+
+    .make {
+        font-size: 40px;
+    }
+
+    .add_task {
+        margin-left: 100px;
+    }
+    .card{
+        margin-top: 30px;
+    }
+}
+
+
+
+
+
